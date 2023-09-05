@@ -1,0 +1,90 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1500px) {
+}
+
+/* large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* meduim devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+  .commentSection {
+    width: 60% !important;
+  }
+  .verticalLine {
+    width: 2px !important;
+    margin: 0 1.5rem !important;
+  }
+  .replies {
+    width: 50%;
+  }
+}
+
+@media (max-width: 850px) {
+  .commentSection {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 710px) {
+  .commentSection {
+    width: 80% !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .commentSection {
+    width: 85% !important;
+  }
+  .verticalLine {
+    width: 1px !important;
+    margin: 0 0.5rem 0 0 !important;
+  }
+
+  .commentBlock {
+    flex-direction: column-reverse;
+  }
+
+  .score {
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-direction: row !important;
+  }
+
+  .score .commentScore {
+    margin: 0.3rem 0 !important;
+  }
+
+  .score .minusButton {
+    align-self: baseline;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 475px) {
+  .commentBlock {
+    position: relative;
+    align-items: flex-start !important;
+  }
+
+  .score {
+    align-self: flex-start;
+  }
+
+  .topSection .rightSide {
+    position: absolute;
+    bottom: 1.2rem;
+    right: 1.2rem;
+  }
+}

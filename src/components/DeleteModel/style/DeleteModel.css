@@ -1,0 +1,35 @@
+.modelBox {
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212deg 24% 26% / 80%);
+}
+
+.deleteModel {
+  width: 325px;
+  background-color: var(--neutralWhite);
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+}
+
+.deleteModel h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.deleteModel p {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: var(--neutralGrayishBlue);
+  margin-bottom: 1rem;
+}
+
+.deleteModel .modelButtons {
+  display: flex;
+  justify-content: space-between;
+}

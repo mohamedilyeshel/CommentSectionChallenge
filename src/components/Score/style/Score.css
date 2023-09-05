@@ -1,0 +1,29 @@
+.score {
+  padding: 0.5rem;
+  background-color: var(--neutralVeryLightGray);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1.2rem;
+}
+
+.score .plusButton button,
+.score .minusButton button {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.score .plusButton button:hover img,
+.score .minusButton button:hover img {
+  filter: invert(38%) sepia(80%) saturate(561%) hue-rotate(201deg)
+    brightness(78%) contrast(87%);
+}
+
+.score .commentScore {
+  font-size: 0.9rem;
+  margin: 0.7rem 0;
+  color: var(--primaryModerateBlue);
+  font-weight: 500;
+}
