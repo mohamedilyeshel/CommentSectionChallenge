@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://mohamedilyeshel.github.io/CommentSectionChallenge/)
+- Live Site URL: [Live Site URL](https://github.com/mohamedilyeshel/CommentSectionChallenge)
 
 ## My process
 
