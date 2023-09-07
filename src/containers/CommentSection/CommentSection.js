@@ -25,9 +25,12 @@ const CommentSection = () => {
           return { ...query, loading: true };
         });
 
-        let data = await fetch("http://localhost:3000/comments", {
-          method: "GET",
-        });
+        let data = await fetch(
+          "https://my-json-server.typicode.com/mohamedilyeshel/CommentSectionChallengeJSONServer/comments",
+          {
+            method: "GET",
+          }
+        );
 
         let commentsFetched = await data.json();
         dispatch({ type: "newData", data: commentsFetched });

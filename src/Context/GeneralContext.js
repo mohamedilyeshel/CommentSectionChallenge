@@ -14,9 +14,12 @@ export const GeneralProvider = ({ children }) => {
 
     const getCurrentUser = async () => {
       try {
-        let data = await fetch("http://localhost:3000/currentUser", {
-          method: "GET",
-        });
+        let data = await fetch(
+          "https://my-json-server.typicode.com/mohamedilyeshel/CommentSectionChallengeJSONServer/currentUser",
+          {
+            method: "GET",
+          }
+        );
         let currentUser = await data.json();
         setCurrentUser(currentUser);
       } catch (error) {

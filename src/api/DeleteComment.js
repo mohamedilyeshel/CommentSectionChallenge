@@ -1,8 +1,11 @@
 const DeleteComment = async (commentId) => {
   try {
-    let data = await fetch(`http://localhost:3000/comments/${commentId}`, {
-      method: "DELETE",
-    });
+    let data = await fetch(
+      `https://my-json-server.typicode.com/mohamedilyeshel/CommentSectionChallengeJSONServer/comments/${commentId}`,
+      {
+        method: "DELETE",
+      }
+    );
     return await data.json();
   } catch (error) {
     return {
