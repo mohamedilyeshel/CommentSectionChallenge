@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CommentSectionChallenge/static/css/main.bef49d9d.css",
+    "main.js": "/CommentSectionChallenge/static/js/main.93b6c0b5.js",
+    "static/media/image-amyrobson.webp": "/CommentSectionChallenge/static/media/image-amyrobson.974bbf3c9ffb709f30a0.webp",
+    "static/media/image-juliusomo.webp": "/CommentSectionChallenge/static/media/image-juliusomo.595ca29b9049f4c6ce66.webp",
+    "static/media/image-maxblagun.webp": "/CommentSectionChallenge/static/media/image-maxblagun.e423f15841d76f3a5361.webp",
+    "static/media/image-ramsesmiron.webp": "/CommentSectionChallenge/static/media/image-ramsesmiron.62a67681169b8dcdc378.webp",
+    "index.html": "/CommentSectionChallenge/index.html",
+    "static/media/icon-plus.svg": "/CommentSectionChallenge/static/media/icon-plus.0037a825a550965779412c2890bd328b.svg",
+    "static/media/icon-edit.svg": "/CommentSectionChallenge/static/media/icon-edit.b0c7f9ebaec367bd3ae2.svg",
+    "static/media/icon-reply.svg": "/CommentSectionChallenge/static/media/icon-reply.bfb4589d45cd96abd45e.svg",
+    "static/media/icon-minus.svg": "/CommentSectionChallenge/static/media/icon-minus.4aa6933cb1575b3c54fa67d84a61efaf.svg",
+    "static/media/icon-delete.svg": "/CommentSectionChallenge/static/media/icon-delete.86cedbf2e37529f9c8f1.svg",
+    "main.bef49d9d.css.map": "/CommentSectionChallenge/static/css/main.bef49d9d.css.map",
+    "main.93b6c0b5.js.map": "/CommentSectionChallenge/static/js/main.93b6c0b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bef49d9d.css",
+    "static/js/main.93b6c0b5.js"
+  ]
+}
