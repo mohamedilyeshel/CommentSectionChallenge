@@ -5,6 +5,7 @@ const TransformDifference = (differenceArr) => {
     2: "days",
     3: "hours",
     4: "minutes",
+    5: "seconds",
   };
 
   let lastZeroIndex = differenceArr.lastIndexOf(0);
@@ -13,7 +14,7 @@ const TransformDifference = (differenceArr) => {
     return `${differenceArr[0]} ${stringToBeReturned[0]} ago`;
   }
 
-  if (lastZeroIndex === 5) {
+  if (lastZeroIndex + 1 === 6) {
     return "Just now";
   }
 

@@ -46,9 +46,12 @@ const CommentBlock = ({ comment }) => {
     });
   };
 
-  const createdAtDynamic = TransformDifference(
-    Difference(TransformCreatedAtDate(comment.createdAt))
-  );
+  let createdAtDynamic;
+  if (!comment.isReplyBox) {
+    createdAtDynamic = TransformDifference(
+      Difference(TransformCreatedAtDate(comment.createdAt))
+    );
+  }
 
   return (
     <>
